@@ -1,5 +1,8 @@
 # ipaupload
-Upload IPA package with GoLang
+Upload iOS apps to App Store Connect with GoLang
+
+
+Our code is based on the codes [ios-uploader](<https://github.com/simonnilsson/ios-uploader>) , a Node.js for uploading iOS apps to App Store Connect.
 
 **Note**
 * The appPWD is not the password for login, it is generated for uploade the specific app in you account.
