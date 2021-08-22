@@ -1,8 +1,8 @@
 # ipaupload
+
 Upload iOS apps to App Store Connect with GoLang
 
-
-Our code is based on the codes [ios-uploader](<https://github.com/simonnilsson/ios-uploader>) , a Node.js for uploading iOS apps to App Store Connect.
+Our code is based on the codes [ios-uploader](<https://github.com/simonnilsson/ios-uploader>) , a Node.js implementaion for uploading iOS apps to App Store Connect.
 
 **Note**
 * The appPWD is not the password for login, it is generated for uploade the specific app in you account.
@@ -20,6 +20,7 @@ result, response, err := uploadipa.RunUpload(user, appPWD, filePath)
 * The retry times is 3.
 
 ## Step by step usage
+
 ```
 import github.com/TommeyChang/go-pkg/uploadipa
 
@@ -40,6 +41,4 @@ if err != nil {
 }
 
 resutl, response, err := proc.UploadWithTickets(tickets)
-
-
 ```
