@@ -1,7 +1,7 @@
 # ipaupload
 Upload IPA package with GoLang
 
-## Note
+** Note **
 * The appPWD is not the password for login, it is generated for uploade the specific app in you account.
 
 ## Simple Usage
@@ -40,15 +40,3 @@ resutl, response, err := proc.UploadWithTickets(tickets)
 
 
 ```
-
-## Lincense
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
