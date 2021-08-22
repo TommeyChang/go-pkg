@@ -1,7 +1,7 @@
 # ipaupload
 Upload IPA package with GoLang
 
-** Note **
+**Note**
 * The appPWD is not the password for login, it is generated for uploade the specific app in you account.
 
 ## Simple Usage
